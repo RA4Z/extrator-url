@@ -1,6 +1,4 @@
-#url = "https://bytebank.com/cambio?quantidade=100&moedaOrigem=real&moedaDestino=dolar"
-
-url = ' '
+url = "https://bytebank.com/cambio?quantidade=100&moedaOrigem=real&moedaDestino=dolar"
 
 # SANITIZAÇÃO DA URL
 url = url.strip()
