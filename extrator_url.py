@@ -5,11 +5,14 @@ class ExtratorURL:
 
 
     def sanitiza_url(self, url):
-        return url.strip()
+        if type(url) == str:
+            return url.strip()
+        else:
+            return ''
     
 
     def valida_url(self):
-        if self.url == '':
+        if not self.url:
             raise ValueError('A URL está vazia!')
         
 
